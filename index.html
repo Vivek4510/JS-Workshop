@@ -11,9 +11,22 @@
         #alert{
             display: none;
         }
+        thead{
+            background-color: aqua;
+        }
+        .main{
+            border: 2px solid black;
+            width: 50%;
+            padding: 25px;
+            background-color: aquamarine;
+        }
+        tbody{
+            background-color: blanchedalmond;
+        }
     </style>
 </head>
 <body>
+    <div class="main">
     <h1>Personal Financial Management</h1>
     <span>Balance : &#8377;</span>
     <span id="balance">0</span><br><br>
@@ -42,6 +55,7 @@
         </tbody>
         </thead>
     </table>
+    </div>
 
     <script>
         let bal = 0;
